@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    height: 100%;
+    width: 300px;
+background-color:rgb(0,250,225);
+}
+.container{
+    border: 0px solid grey;
+    border-radius: 1rem;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    width: 20rem;
+    padding:1rem;
+  
+    height: 80vh;
+    display:block;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color:white;
+
+}
+
+#phone{
+    outline: 1;
+}
+#phone:valid{
+    border-color: green;
+}
+#phone:focus:invalid{
+    border-color: red;
+}
+#pass{
+    outline: 0;
+}
+#pass:valid{
+    border-color: green;
+}
+#pass:focus:invalid{
+    border-color: red;
+}
+
+
+
+
+.container .text {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+.container form {
+    margin-top: -20px;
+}
+.container form .data {
+    height: 45px;
+    width: 100%;
+    margin: 40px 0;
+}
+form .data label {
+    font-size: 18px;
+}
+form .data input {
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid silver;
+}
+form .data input:focus {
+    border-color: #3498db;
+    border-bottom-width: 2px;
+}
+form .forgot-pass {
+    margin-top: -8px;
+    margin-bottom: 9px;;
+}
+form .forgot-pass a {
+    color: #3498db;
+    text-decoration: none;
+}
+form .forgot-pass a:hover {
+    text-decoration: underline;
+}
+.btn button{
+    border: none;
+    background-color: transparent;
+    margin: 0 auto;
+    width: 100%;
+    border: 1px;
+    font-weight: bold;
+    padding: 1rem 1rem;
+    background-color:rgb(0,250,225);
+    color: #fff;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    font-weight: 200;
+    position: relative;
+    cursor: pointer;
+    transition: all .3s linear;
+    
+}
+
+.btn button:hover {
+    color: #fff;
+    background-color: rgb(160, 110, 206);
+}
+
+
+.btn button{
+    height: 10%;
+    width: 70%;
+    background: rgb(0,250,225);
+    border: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form .signup-link {
+    margin-top: 10px;
+    text-align: center;
+}
+form .signup-link a {
+    color: #3498db;
+    text-decoration: none;
+}
+form .signup-link a:hover {
+    text-decoration: underline;
+}
+.social a {
+    color:white;
+    margin:30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+  }
+  .social a ion-icon {
+    margin-top: 20px;
+    height: 7%;
+    width: 15%;
+
+    color:skyblue;
+    background-color: black;
+  }
+  .social a:hover ion-icon {
+    color:red ;
+    transform: translateY(5px);
+  }
